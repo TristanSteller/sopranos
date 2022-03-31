@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18%;
+}
+
+main>div{
+    padding-bottom: 2%;
+}
+
+.logo{
+    font-size: 72px;
+}
+
+.orderButton{
+    margin-top: 5%;
+    background-color: white;
+    width: 200px;
+    height: 70px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    outline: black inset 3px;
+    outline-offset: -5px;
+}
+
+.orderButton:hover{
+    outline-offset: -4px;
+}
+
+.background{
+    background-image: url(../src/background.png);
+    background-size: cover;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+}
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+header ul{
+    display: flex;
+    padding: 25px;
+    list-style-type: none;
+}
+
+header li{
+    padding: 0 25px;
+}
+
+.pizzalist{
+    height: 200px;
+    position: relative;
+    display: flex;
+    border-bottom: solid 1px black;
+    padding: 20px;
+}
+
+.pizzalist img{
+    height: 200px;
+    width: 200px;
+}
