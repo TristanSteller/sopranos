@@ -17,7 +17,7 @@ if (empty($_SESSION['cart'])){
     <div class="wrapper">
         <header class="black">
             <div class="logocontainer">
-                Sopranos
+            <img src="./src/Logo.png" alt="" height="50px">
             </div>
             <nav class="black">
                 <ul>
